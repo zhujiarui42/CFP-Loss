@@ -9,7 +9,7 @@ import os
 import torch
 from utils import *
 from models import *
-from trainer import Trainer, CycleGANTrainer,RegTrainer,SelfTrainer,MTFSTrainer
+from trainer import *
 import torch.nn as nn
 
 def make_args():
@@ -17,9 +17,9 @@ def make_args():
     # dataloader
     parse.add_argument("--batch_size", type=int, default=16)
     parse.add_argument("--data_path", type=str, default="data")
-    parse.add_argument("--data_split", type=str, default="data/info.csv")
+    # parse.add_argument("--data_split", type=str, default="data/info.csv")
     # model
-    parse.add_argument("--model", type=str, default='resunet')
+    parse.add_argument("--model", type=str, default='carunet')
     # parse.add_argument("--depth", type=int, default=110)
     # train
     parse.add_argument("--seed", type=int, default=-1)
@@ -82,7 +82,7 @@ if __name__ == "__main__":
     else:
         raise ValueError('wrong model!')
     model = model.cuda()
-    model.load_state_dict(torch.load(f"output/{args.version}/model.npy")['state_dict'])
+    # model.load_state_dict(torch.load(f"output/{args.version}/model.npy")['state_dict'])
     # print(model)
 
     # =============================
