@@ -20,7 +20,7 @@ Due to the hospital's confidential agreement, we cannot share real patient data 
 
 ## Preprocess 
 1.Run [data/lungseg.py]("https://github.com/zhujiarui42/CPF-Loss/data/lungseg.py") to operate lung segmentation & cropping on CT/CBCT images.  
-2.Run [data/lnii2array.py]("https://github.com/zhujiarui42/CPF-Loss/data/nii2array.py") to do data resizing and nomarlization and transform preprocessed nii files to npy files, before feeding them into the network.  
+2.Run [data/lnii2array.py]("https://github.com/zhujiarui42/CPF-Loss/data/nii2array.py") to do data resizing and normalization and transform preprocessed nii files to npy files, before feeding them into the network.  
 
 ## Training
 Read the training tutorial for details.
