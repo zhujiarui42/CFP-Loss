@@ -10,6 +10,8 @@ Computerized Medical Imaging and Graphics,Volume 121,2025,102487,ISSN 0895-6111,
 
 (https://www.sciencedirect.com/science/article/pii/S0895611124001642)
 
+Please feel free to contact me by the following email if you have trouble relicating our work: jiarui.zhu@connect.polyu.hk
+
 ### 🛠 Requirements
 - Python 3.7+
 - PyTorch 1.11.0+
@@ -20,7 +22,7 @@ Computerized Medical Imaging and Graphics,Volume 121,2025,102487,ISSN 0895-6111,
 
 ## Dataset
 
-In this study, we utilized four-dimensional thoracic CBCT and PCT image pairs from 100 lung cancer patients who underwent stereotactic radiotherapy on a Varian Medical Systems (VISION 3253) machine between 2017-2019 at Queen Mary’s Hospital in Hong Kong. These 100 patients were randomly split 70/30 into AI-training and AI-testing groups, with the training dataset further split 56/14 for training and validation. 
+In this study, we utilized four-dimensional thoracic CBCT and Planning CT image pairs of 268 lung cancer patients who underwent stereotactic radiotherapy from three different hospitals, including 100 patients from Queen Mary’s Hospital in Hong Kong, 80 patients from Jinshazhou Hospital of Guangzhou University of Chinese Medicine, in Guangzhou, China, and 88 patients from Xijing Hospital, Fourth Military Medical University in Xian, China. These 268 patients were randomly split 188/80 into AI-training and AI-testing groups, with the training dataset further split 132/56 for training and validation.
 
 Due to the hospital's confidential agreement, we cannot share real patient data at this moment. Yet we can provide a few demo patients in a later time, for convenient reproduction of our work.
 
