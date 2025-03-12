@@ -6,7 +6,9 @@ Please cite our paper if you're using our code:
 
 Jiarui Zhu, Hongfei Sun, Weixing Chen, Shaohua Zhi, Chenyang Liu, Mayang Zhao, Yuanpeng Zhang, Ta Zhou, Yu Lap Lam, Tao Peng, Jing Qin, Lina Zhao, Jing Cai, Ge Ren,
 Feature-targeted deep learning framework for pulmonary tumorous Cone-beam CT (CBCT) enhancement with multi-task customized perceptual loss and feature-guided CycleGAN,
-Computerized Medical Imaging and Graphics,Volume 121,2025,102487,ISSN 0895-6111,https://doi.org/10.1016/j.compmedimag.2024.102487.(https://www.sciencedirect.com/science/article/pii/S0895611124001642)
+Computerized Medical Imaging and Graphics,Volume 121,2025,102487,ISSN 0895-6111,https://doi.org/10.1016/j.compmedimag.2024.102487
+
+(https://www.sciencedirect.com/science/article/pii/S0895611124001642)
 
 ### 🛠 Requirements
 - Python 3.7+
