@@ -10,7 +10,7 @@ Computerized Medical Imaging and Graphics,Volume 121,2025,102487,ISSN 0895-6111,
 
 (https://www.sciencedirect.com/science/article/pii/S0895611124001642)
 
-Please feel free to contact me by the following email if you have trouble relicating our work: jiarui.zhu@connect.polyu.hk
+Please feel free to contact me by the following email if you have trouble replicating our work: jiarui.zhu@connect.polyu.hk
 
 ### 🛠 Requirements
 - Python 3.7+
